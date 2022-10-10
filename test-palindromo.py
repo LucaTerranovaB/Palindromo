@@ -1,6 +1,4 @@
-
 import unittest
-import main
 from main import palindromo
 
 #UNITTEST
