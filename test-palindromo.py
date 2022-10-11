@@ -17,7 +17,7 @@ class PalindromoUnittest(unittest.TestCase):
         self.assertTrue(palindromo('reconocer'))
 
     def test_auto(self):
-        self.assertTrue(palindromo('auto'))
+        self.assertFalse(palindromo('auto'))
 
 if __name__=='__main__':
     unittest.main()
