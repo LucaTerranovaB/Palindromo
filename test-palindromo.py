@@ -5,19 +5,27 @@ from main import palindromo
 class PalindromoUnittest(unittest.TestCase):
 
     def test_hola(self):
-        self.assertFalse(palindromo('hola'))
+        palabra = palindromo("hola")
+        self.assertFalse(palabra)
 
     def test_ana(self):
-        self.assertTrue(palindromo('ana'))
+        palabra = palindromo("ana")
+        self.assertTrue(palabra)
     
     def test_neuquen(self):
-        self.assertTrue(palindromo('neuquen'))
+        palabra = palindromo("neuquen")
+        self.assertTrue(palabra)
+    
     
     def test_reconocer(self):
-        self.assertTrue(palindromo('reconocer'))
+        palabra = palindromo("reconocer")
+        self.assertTrue(palabra)
+    
 
     def test_auto(self):
-        self.assertFalse(palindromo('auto'))
+        palabra = palindromo("auto")
+        self.assertFalse(palabra)
+    
 
 if __name__=='__main__':
     unittest.main()
