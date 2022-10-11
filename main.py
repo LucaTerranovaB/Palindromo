@@ -1,13 +1,8 @@
 def palindromo(palabra):
-    # Recorrer palabra 
-    for i in range(0, int(len(palabra))):
-        # Comparar palabra con inversa de palabra
-        if palabra[i] != palabra[-i-1]:
-            return False
+    palabra = palabra.replace(" ", "")
+    palabra = palabra.lower()
+    palabra_invertida = palabra[::-1]
+    if palabra == palabra_invertida:
         return True
-
-if __name__=='__main__':
-    print(palindromo("hola"))
-    print(palindromo("neuquen"))
-
-    
+    else:
+        return False
