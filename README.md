@@ -2,6 +2,7 @@
 # TP PALINDROMOS
 # LUCA TERRANOVA
 
+
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/LucaTerranovaB/Palindromo/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/LucaTerranovaB/Palindromo/tree/main)
 
 
