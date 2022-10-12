@@ -1,4 +1,3 @@
-# Palindromo
 
 # TP PALINDROMOS
 # LUCA TERRANOVA
